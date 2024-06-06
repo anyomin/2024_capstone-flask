@@ -98,7 +98,7 @@ def upload_file():
         filepath = os.path.join(UPLOAD_FOLDER, filename)
         file_name= os.path.join(AFTER_REMOVEBG_FOLDER, filename)
         file_sql='closet'+'\\'+'After_Removebg'+'\\'+f"{os.path.splitext(filename)[0]}.png"
-        file_sql='closet'+'\\'+'After_Removebg'+'\\'+f"{os.path.splitext(filename)[0]}.png"
+        
         with con.cursor() as cursor:
             # 이미지가 이미 데이터베이스에 존재하는지 확인하는 쿼리
             sql = "SELECT * FROM closet WHERE image = %s"
@@ -108,7 +108,7 @@ def upload_file():
             
             # 이미지가 데이터베이스에 존재하면 오류 반환
             if result:
-                print("file_sql:", file_sql)
+                
                 print("file_sql:", file_sql)
                 return jsonify({'error': 'Image already exists in the database'}), 400
             
@@ -220,6 +220,6 @@ def predict():
         return jsonify({'error': str(e)}), 500
     
     return jsonify({'body_shape': result})
-
+#-------
 if __name__ == '__main__':
     app.run(debug=True)
