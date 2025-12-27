@@ -15,10 +15,6 @@
 
 ![js](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=flat&logo=visual%20studio%20code&logoColor=white)
 
-<h3>기술스택</h3>
-<img width="1778" height="810" alt="image" src="https://github.com/user-attachments/assets/f6c15f54-8ca8-4537-af07-ac564e7d38a3" />
-<h3>전체 시스템 구성도</h3>
-<img width="1134" height="446" alt="image" src="https://github.com/user-attachments/assets/af07221b-33fc-4e32-82a0-7e3b2bda41b4" />
 
 # 👚 딥러닝 기반 의류 관리 & 코디 추천 앱 (Server/API)
 
@@ -45,7 +41,8 @@
 ---
 
 ## 🗺️ 시스템 구성도
-![architecture](docs/images/architecture.png)
+<img width="1134" height="446" alt="image" src="https://github.com/user-attachments/assets/af07221b-33fc-4e32-82a0-7e3b2bda41b4" />
+
 
 > **앱(Flutter)** ↔ **Flask API 서버** ↔ **MySQL**  
 > (필요 시 **ngrok**로 로컬 서버를 외부 URL로 열어서 앱-서버 연동 테스트)
@@ -55,11 +52,15 @@
 ## 🖼️ 스크린샷
 | 옷장 | 룩북 |
 |---|---|
-| ![closet](docs/images/screen_closet.png) | ![lookbook](docs/images/screen_lookbook.png) |
+|<img width="1005" height="554" alt="image" src="https://github.com/user-attachments/assets/023249a8-8f6d-44db-b715-ff9d6d83eea2" />
+|<img width="976" height="544" alt="image" src="https://github.com/user-attachments/assets/595e36c6-bbbf-430f-b991-2debbd336506" />
+ |
 
 | 날씨 추천 | 체형 분석 |
 |---|---|
-| ![weather](docs/images/screen_weather.png) | ![body](docs/images/screen_bodytype.png) |
+|<img width="622" height="518" alt="image" src="https://github.com/user-attachments/assets/b0b2abc5-7456-4078-a6ea-481de94c469e" />
+ | <img width="998" height="566" alt="image" src="https://github.com/user-attachments/assets/a72aa0d4-6320-44aa-99f7-28b0bbab2196" />
+ |
 
 ---
 
