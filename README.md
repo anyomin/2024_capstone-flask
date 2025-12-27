@@ -1,12 +1,25 @@
-# 👚 딥러닝 기반 의류 관리 & 코디 추천 앱 (Flask API 서버)
+# 👚 딥러닝 기반 의류 관리 & 코디 추천 앱
 
 ## 1) 프로젝트 한줄 소개
-> Flutter 앱과 통신하는 Flask REST API를 구현하고, MySQL에 옷장/룩북 데이터를 저장·조회하며 이미지 업로드 시 배경제거/카테고리 분류 결과를 JSON(Base64 이미지 포함)으로 반환하는 서비스
+> 사용자의 의류를 등록·분류하고, 룩북/날씨/체형 기반 코디 추천을 제공하는 모바일 서비스
 
 ---
+---
+## 🧩 Tech Stack
+- **Backend**: Python, Flask (REST API)
+- **DB**: MySQL
+- **ML 연동**: TensorFlow/Keras (분류/추론 모듈 호출)
+- **Image 처리**: 배경제거 처리 모듈 연동
+- **Dev/Etc**: Git, VS Code, ngrok(연동 테스트), CORS
+---
+## 🗺️ 시스템 구성도
+<img width="1134" height="446" alt="image" src="https://github.com/user-attachments/assets/af07221b-33fc-4e32-82a0-7e3b2bda41b4" />
+> **앱(Flutter)** ↔ **Flask API 서버** ↔ **MySQL**  
+> (필요 시 **ngrok**로 로컬 서버를 외부 URL로 열어서 앱-서버 연동 테스트)
+---
 
-## 2) 핵심 기능 스크린샷 & 데모 영상
-
+## 2) 데모 영상 & 핵심 기능 스크린샷 
+ 
 ### 🎥 데모 영상
 [![Demo Video](https://img.youtube.com/vi/gGcU2lqVKR4/0.jpg)](https://youtu.be/gGcU2lqVKR4)
 
