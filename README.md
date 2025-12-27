@@ -49,7 +49,7 @@
 
 ---
 
-## 🖼️ 스크린샷
+## 🖼️ 화
 | 옷장 | 룩북 |
 |---|---|
 |<img width="1005" height="554" alt="image" src="https://github.com/user-attachments/assets/023249a8-8f6d-44db-b715-ff9d6d83eea2" />
