@@ -49,20 +49,38 @@
 
 ---
 
-## 🖼️ 화
-| 옷장 | 룩북 |
-|---|---|
-|<img width="1005" height="554" alt="image" src="https://github.com/user-attachments/assets/023249a8-8f6d-44db-b715-ff9d6d83eea2" />
-|
- |<img width="976" height="544" alt="image" src="https://github.com/user-attachments/assets/595e36c6-bbbf-430f-b991-2debbd336506" />
+<h2>🖼️ 스크린샷 </h2>
 
-| 날씨 추천 | 체형 분석 |
-|---|---|
-|<img width="622" height="518" alt="image" src="https://github.com/user-attachments/assets/b0b2abc5-7456-4078-a6ea-481de94c469e" />
- | <img width="998" height="566" alt="image" src="https://github.com/user-attachments/assets/a72aa0d4-6320-44aa-99f7-28b0bbab2196" />
- |
+<table>
+  <tr>
+    <th>옷장</th>
+    <th>룩북</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/023249a8-8f6d-44db-b715-ff9d6d83eea2" width="430"/>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/595e36c6-bbbf-430f-b991-2debbd336506" width="430"/>
+    </td>
+  </tr>
+</table>
 
----
+<table>
+  <tr>
+    <th>날씨 추천</th>
+    <th>체형 분석</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/b0b2abc5-7456-4078-a6ea-481de94c469e" width="430"/>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/a72aa0d4-6320-44aa-99f7-28b0bbab2196" width="430"/>
+    </td>
+  </tr>
+</table>
+
 
 ## 🔌 API (주요 엔드포인트)
 > 앱 ↔ 서버는 **HTTP 요청/응답(JSON)** 기반으로 통신합니다.
