@@ -18,8 +18,7 @@
 - **Backend**: Python, Flask (REST API)
 - **DB**: MySQL
 - **ML 연동**: TensorFlow / Keras (분류/추론 모듈 호출)
-- **Image 처리**: 배경제거 모듈 연동
-- **Dev/Etc**: Git, VS Code, ngrok(연동 테스트), CORS
+- **Dev/Etc**: Git, VS Code, ngrok(연동 테스트)
 
 ---
 
@@ -36,7 +35,6 @@
 <img width="1134" height="446" alt="system" src="https://github.com/user-attachments/assets/af07221b-33fc-4e32-82a0-7e3b2bda41b4" />
 
 > **앱(Flutter)** ↔ **Flask API 서버** ↔ **MySQL**  
-> 필요 시 **ngrok**로 로컬 서버를 외부 URL로 열어 **앱-서버 연동 테스트** 진행
 
 ---
 
