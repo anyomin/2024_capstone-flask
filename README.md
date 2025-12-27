@@ -53,8 +53,8 @@
 | 옷장 | 룩북 |
 |---|---|
 |<img width="1005" height="554" alt="image" src="https://github.com/user-attachments/assets/023249a8-8f6d-44db-b715-ff9d6d83eea2" />
-|<img width="976" height="544" alt="image" src="https://github.com/user-attachments/assets/595e36c6-bbbf-430f-b991-2debbd336506" />
- |
+|
+ |<img width="976" height="544" alt="image" src="https://github.com/user-attachments/assets/595e36c6-bbbf-430f-b991-2debbd336506" />
 
 | 날씨 추천 | 체형 분석 |
 |---|---|
